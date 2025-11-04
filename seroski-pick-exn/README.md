@@ -1,1 +1,0 @@
-# seroski-pick-exntension
