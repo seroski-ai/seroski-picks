@@ -1,0 +1,25 @@
+services:
+  airflow:
+    image: apache/airflow:3.0.2
+    container_name: airflow
+    restart: always
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW_STANDALONE_ADMIN_USERNAME=admin
+      - AIRFLOW_STANDALONE_ADMIN_PASSWORD=admin
+      - AIRFLOW_STANDALONE_ADMIN_EMAIL=admin@example.com
+
+      # 👇 YOUR NEON DB URL INJECTED HERE
+      - NEON_DB_URL=${NEON_DB_URL}
+
+      # Optional: Pre-create Airflow connection automatically
+      - AIRFLOW_CONN_NEON_DB=${NEON_DB_URL}
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+    ports:
+      - "8080:8080"
+    command: standalone

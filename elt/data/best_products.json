@@ -1,0 +1,47 @@
+[
+  {
+    "id": "raw-3",
+    "brand": "FitTech",
+    "price": 2599,
+    "rating": 4.8,
+    "reviews": 890,
+    "images": 6,
+    "in_stock": true,
+    "damage_reported": false,
+    "title": "Smart Watch Pro",
+    "sentiment_score": 0.968,
+    "image_quality": 1.0,
+    "final_score": 2.507,
+    "verdict": "\u2705 No major issues"
+  },
+  {
+    "id": "raw-1",
+    "brand": "SoundMagic",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 1240,
+    "images": 5,
+    "in_stock": true,
+    "damage_reported": false,
+    "title": "Noise Cancelling Headphones",
+    "sentiment_score": 0.936,
+    "image_quality": 0.833,
+    "final_score": 2.381,
+    "verdict": "\u2705 No major issues"
+  },
+  {
+    "id": "raw-4",
+    "brand": "SoundMagic",
+    "price": 999,
+    "rating": 4.2,
+    "reviews": 430,
+    "images": 4,
+    "in_stock": false,
+    "damage_reported": false,
+    "title": "Bluetooth Speaker",
+    "sentiment_score": 0.872,
+    "image_quality": 0.667,
+    "final_score": 2.162,
+    "verdict": "\u26a0 Possible build/image issues"
+  }
+]

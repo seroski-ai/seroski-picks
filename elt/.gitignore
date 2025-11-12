@@ -1,0 +1,20 @@
+# --- ENV / Secrets ---
+.env
+*.env
+
+# --- Airflow Bootstrap Files ---
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# --- Airflow Logs & Temp Data ---
+logs/
+plugins/
+dags/__pycache__/
+__pycache__/
+*.pyc
+
+# --- Docker Stuff ---
+*.pid
+*.swp
+tmp/
