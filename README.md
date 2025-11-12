@@ -12,7 +12,7 @@ Users waste time comparing products manually. We rank products using AI, ratings
 Frontend → Node API → Ranker → Top results
 
 ## Tech Stack (MVP)
-Frontend: React (Vite)
+Frontend: Next.js
 Backend: Node + Express
 
 ## Run Project
