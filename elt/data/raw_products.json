@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Noise Cancelling Headphones",
+    "brand": "SoundMagic",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 1240,
+    "images": 5,
+    "in_stock": true,
+    "damage_reported": false
+  },
+  {
+    "id": 2,
+    "name": "Wireless Earbuds",
+    "brand": "BeatPlus",
+    "price": 1299,
+    "rating": 3.8,
+    "reviews": 540,
+    "images": 3,
+    "in_stock": true,
+    "damage_reported": false
+  },
+  {
+    "id": 3,
+    "name": "Smart Watch Pro",
+    "brand": "FitTech",
+    "price": 2599,
+    "rating": 4.8,
+    "reviews": 890,
+    "images": 6,
+    "in_stock": true,
+    "damage_reported": false
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth Speaker",
+    "brand": "SoundMagic",
+    "price": 999,
+    "rating": 4.2,
+    "reviews": 430,
+    "images": 4,
+    "in_stock": false,
+    "damage_reported": false
+  },
+  {
+    "id": 5,
+    "name": "Gaming Mouse",
+    "brand": "ProGamer",
+    "price": 1499,
+    "rating": 4.1,
+    "reviews": 650,
+    "images": 2,
+    "in_stock": true,
+    "damage_reported": true
+  }
+]
